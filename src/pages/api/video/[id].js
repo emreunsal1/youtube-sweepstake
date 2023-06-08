@@ -19,7 +19,6 @@ const getVideo = async (req, res) => {
     console.log("video response", error.response.data.error.errors);
   }
 };
-
 const getChannel = async (channelId) => {
   const response = await bffInstance.get("/channels", {
     params: {

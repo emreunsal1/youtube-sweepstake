@@ -11,6 +11,8 @@ const startSweepStak = async (req, res) => {
     uniqueUsers,
     uniqueComments,
   } = req.body;
+  const comments = await getComments(id);
+  res.send(comments);
 };
 
 const getComments = async (videoId) => {
@@ -22,3 +24,5 @@ const getComments = async (videoId) => {
   });
   return response.data;
 };
+
+export default startSweepStak;
