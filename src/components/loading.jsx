@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Card from './Card'; // Dışa aktarılan Card bileşeni
+import Card from './card';
+
 
 export default function Loading({ commands }) {
   const [visibleCommands, setVisibleCommands] = useState([]);
