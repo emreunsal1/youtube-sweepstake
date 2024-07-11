@@ -27,4 +27,4 @@ With npm:
 npm run start
 ```
 ## 🔴 Demo
-You can visit the demo from: [Twitter Demo](https://twitter-clone-nine-tan.vercel.app/)
+You can visit the demo from: [SweepStak Demo](https://youtube-sweepstake.vercel.app/)
