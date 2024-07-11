@@ -1,0 +1,24 @@
+@keyframes show-hide {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.loading-container {
+  .loading-title {
+    position: absolute;
+    width: 500px;
+    top: 45%;
+    left: calc(50% - 250px);
+    text-align: center;
+    font-size: 50px;
+    animation: show-hide 3s infinite;
+    z-index: 11;
+  }
+}

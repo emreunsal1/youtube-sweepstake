@@ -16,7 +16,6 @@ const getVideo = async (req, res) => {
     res.send(videoResponse.data);
   } catch (error) {
     res.status(400).send("error");
-    console.log("video response", error.response.data.error.errors);
   }
 };
 const getChannel = async (channelId) => {
