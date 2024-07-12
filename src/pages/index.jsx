@@ -32,7 +32,7 @@ export default function Index() {
     setTimeout(() => {
       setLoading(false);
       router.push('/success');
-    }, 5000);
+    }, 7000);
   }
 
   const inputOnchageHandler = async (url)=>{
